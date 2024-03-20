@@ -75,7 +75,7 @@ module.exports = {
       console.log( " ********** ")
       console.log( req.body)
       const data = await Movie.create(req.body)
-     
+      res.redirect('/view');
 
   }
  
